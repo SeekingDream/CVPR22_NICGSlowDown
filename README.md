@@ -8,7 +8,7 @@ The generated adversarial examples are realistic and human-unnoticable images wh
 
 
 ## Approach Ovewview
-![](https://github.com/anonymousGithub2022/1/blob/main/fig/0001.jpg)
+![](https://github.com/SeekingDream/NICGSlowDown/blob/main/fig/0001.jpg)
 
 Our approach overview is shown in the above figure, for the detail design, please refer to our papers.
 
