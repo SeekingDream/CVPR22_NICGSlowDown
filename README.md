@@ -1,45 +1,5 @@
 # NICGSlowDown: Evaluating the Efficiency Robustness of Neural Image Caption Generation Models
 
-# Rebuttal Results
-## Hyperparameter Sensibility
-### Sensibility In terms of Iteration Number $T$
-|Subject|L2| | |Linf| | |
-|:----|:----|:----|:----|:----|:----|:----|
-| |800|1000|1200|800|1000|1200|
-|A|583.86 |583.86 |583.86 |449.05 |451.23 |465.93 |
-|B|581.32 |581.32 |581.32 |578.67 |581.32 |581.32 |
-|C|533.58 |533.58 |533.58 |480.99 |478.99 |482.12 |
-|D|510.95 |513.77 |502.21 |226.55 |224.95 |220.83 |
-
-### Sensibility In terms of Perturbation $e$
-|Subject|30|40|50|0.02|0.03|0.04|
-|:----|:----|:----|:----|:----|:----|:----|
-|A|583.86 |583.86 |583.86 |185.69 |451.92 |573.70| 
-|B|581.32 |581.32 |581.32 |578.67 |581.32 |581.32|
-|C|533.58 |533.58 |533.58 |367.80 |481.75 |522.39|
-|D|482.67 |514.15 |521.47 |170.13 |225.68 |302.42 |
-
-## Adversarial Training Results
-
-### $L_{inf}# Results
-|I-Loop|A|B|C|D|
-|:----|:----|:----|:----|:----|
-|Before|354.11 |271.19 |379.81 |115.02|
-|After (Train)|7.50 |2.34 |0.15 |0.73 |
-|After (Test)|233.82 |150.31 |394.96 |106.55 |
-
-### $L_{2}# Results
-
-|I-Loop|A|B|C|D|
-|:----|:----|:----|:----|:----|
-|Before|483.8|481.32 |433.58 |408.90|
-|After (Train)|10.50 |6.42 |0.31 |0.42|
-|After (Test)|333.31 |432.31 |356.31 |300.31 |
-
-
-
-
-
 ## Description
 
 NICGSlowDown is designed to generate  **efficiency adversarial examples** to evaluate the efficiency robustness of NICG models.
