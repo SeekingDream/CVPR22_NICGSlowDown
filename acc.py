@@ -64,4 +64,15 @@ np.savetxt('acc.csv', rrrr, delimiter=',')
 
 
 
-
+    '''
+      Copies bytes from a large (1GB) input 
+      stream to an output stream.
+      :param in_stream: input stream.
+      :param out_stream: output stream.
+    '''
+    def copy_stream(in_stream, out_stream):
+        while True:
+            data = in_stream.read(1024)
+            if not data:
+                break
+            out_stream.write(data)
