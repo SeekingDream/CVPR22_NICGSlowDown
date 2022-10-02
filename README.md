@@ -42,16 +42,18 @@ The first row shows the benign images and the second row shows the generated eff
 
 
 
-## 
+## Citation
 
 If you find this repository is helpful to you, please consider cite 
-``@inproceedings{chen2022nicgslowdown,
+````
+@inproceedings{chen2022nicgslowdown,
   title={NICGSlowDown: Evaluating the Efficiency Robustness of Neural Image Caption Generation Models},
   author={Chen, Simin and Song, Zihe and Haque, Mirazul and Liu, Cong and Yang, Wei},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={15365--15374},
   year={2022}
-}''
+}
+````
 
 
 
